@@ -40,7 +40,10 @@ export default class Dashboard extends Component{
             <TextInput style={styles.inputBox} />
             <TextInput style={styles.inputBox} />
 		 
-           
+           <TouchableOpacity style={styles.button} onPress={this.list}>
+             <Text style={styles.buttonText}>Create Notes</Text>
+           </TouchableOpacity>     
+
            <TouchableOpacity style={styles.button} onPress={this.list1}>
              <Text style={styles.buttonText}>Api fetch data</Text>
            </TouchableOpacity>   
