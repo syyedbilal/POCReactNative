@@ -48,7 +48,9 @@ export default class Dashboard extends Component{
              <Text style={styles.buttonText}>Api fetch data</Text>
            </TouchableOpacity>   
 
-                  
+           <TouchableOpacity style={styles.button} onPress={this.mapform}>
+             <Text style={styles.buttonText}>Find Location</Text>
+           </TouchableOpacity> 
 
 
 				<View style={styles.signupTextCont}>
